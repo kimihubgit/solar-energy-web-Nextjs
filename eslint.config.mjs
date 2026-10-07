@@ -7,12 +7,19 @@ const eslintConfig = defineConfig([
   ...nextTs,
   // Override default ignores of eslint-config-next.
   globalIgnores([
-    // Default ignores of eslint-config-next:
     ".next/**",
     "out/**",
     "build/**",
     "next-env.d.ts",
+    "_scraped_data/**",
+    "scrape.js",
   ]),
+  {
+    rules: {
+      "@next/next/no-html-link-for-pages": "off",
+      "@next/next/no-page-custom-font": "off",
+    },
+  },
 ]);
 
 export default eslintConfig;

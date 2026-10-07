@@ -31,7 +31,7 @@ export default function ClientInteractions() {
     };
 
     // Smooth Anchor Scroll
-    const scrollToTarget = (target: Element | number, opts: Record<string, unknown> = {}) => {
+    const scrollToTarget = (target: Element | number) => {
       if (typeof target === 'number') {
         window.scrollTo({ top: target, behavior: 'smooth' });
       } else if (target) {

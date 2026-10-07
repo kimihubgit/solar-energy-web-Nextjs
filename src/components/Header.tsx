@@ -1,8 +1,7 @@
 'use client';
 
-import Link from 'next/navigation';
 import { usePathname } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 export default function Header() {
   const pathname = usePathname();
@@ -22,10 +21,6 @@ export default function Header() {
     setMenuOpen(false);
     document.body.classList.remove('menu-open');
   };
-
-  useEffect(() => {
-    closeMenu();
-  }, [pathname]);
 
   const navLinks = [
     { label: 'Giới thiệu', href: pathname === '/' ? '#gioi-thieu' : '/#gioi-thieu', rootMatch: false },
