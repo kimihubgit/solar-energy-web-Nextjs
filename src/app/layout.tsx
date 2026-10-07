@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     template: '%s | TH-EGO Đắk Lắk',
   },
   description: 'Giải pháp điện mặt trời, lưu trữ năng lượng pin Lithium và thi công điện trọn gói cho gia đình & doanh nghiệp tại Đắk Lắk và khu vực Tây Nguyên.',
+  referrer: 'strict-origin-when-cross-origin',
   applicationName: 'TH-EGO',
   authors: [{ name: 'TH-EGO', url: BASE_URL }],
   creator: 'CÔNG TY TNHH TM & DV KỸ THUẬT ĐIỆN TH-EGO',
