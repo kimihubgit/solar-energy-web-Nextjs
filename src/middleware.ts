@@ -58,6 +58,7 @@ export function middleware(request: NextRequest) {
   response.headers.set('Strict-Transport-Security', 'max-age=63072000; includeSubDomains; preload');
   response.headers.set('Cross-Origin-Resource-Policy', 'same-origin');
   response.headers.set('Cross-Origin-Opener-Policy', 'same-origin');
+  response.headers.set('Cross-Origin-Embedder-Policy', 'credentialless');
 
   // 2. Strict CORS policy
   if (origin) {
