@@ -1,5 +1,5 @@
 export default function StructuredData() {
-  const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://thego.starwar.vn';
+  const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://energy.kimidev.net';
 
   // 1. LocalBusiness / Electrician Schema for GEO & Local SEO
   const localBusinessSchema = {

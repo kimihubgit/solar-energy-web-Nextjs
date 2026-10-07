@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import sitePagesData from '@/data/sitePages.json';
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://thego.starwar.vn';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://energy.kimidev.net';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = Object.keys(sitePagesData);

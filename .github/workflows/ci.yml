@@ -40,4 +40,4 @@ jobs:
       - name: ⚡ Build Next.js Production App
         run: npm run build
         env:
-          NEXT_PUBLIC_SITE_URL: https://thego.starwar.vn
+          NEXT_PUBLIC_SITE_URL: https://energy.kimidev.net

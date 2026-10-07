@@ -8,7 +8,7 @@ import FloatingWidgets from '@/components/FloatingWidgets';
 import ClientInteractions from '@/components/ClientInteractions';
 import StructuredData from '@/components/StructuredData';
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://thego.starwar.vn';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://energy.kimidev.net';
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
